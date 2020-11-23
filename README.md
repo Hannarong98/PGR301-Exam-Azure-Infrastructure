@@ -8,6 +8,8 @@ Prerequisite
 #### You have to have the following requirements to begin
 * Service principal account with enough permission
 
+#### Optionally create resource group beforehand
+
 Usage
 ---
 ### Set desired travis endpoint
@@ -33,7 +35,7 @@ Usage
 * In `.travis.yml` add
     * If you had already created a resource group, you have to do this before first build.
         * Add after `terraform init` this `terraform import azurerm_resource_group.rg /subscriptions/"${AZ_SUB_ID}"/resourceGroups/<YOUR_RESOURCE_GROUP>`
-        * Once the state have been imported and, your build did success you can safely remove the line mentioned above.
+        * Once the state have been imported and your build did passed you can safely remove the line mentioned above.
 * In `variables.tf` change these default values
     * `az_rg_location`
     * `az_acr_img`
