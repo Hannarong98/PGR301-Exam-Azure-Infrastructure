@@ -1,4 +1,4 @@
-## PGR301-Exam-Infrastructure
+## PGR301-Exam-Azure-Infrastructure
 
 [![Build Status](https://travis-ci.com/Hannarong98/pgr301-exam-azure-infrastructure.svg?token=DqMpxq41VWvgzW8Fy3oq&branch=master)](https://travis-ci.com/Hannarong98/pgr301-exam-azure-infrastructure) <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=5750663&Days=1&Design=3" /></a>
 
