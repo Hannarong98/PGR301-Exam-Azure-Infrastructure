@@ -6,12 +6,12 @@ variable "az_rg_location" {
 
 variable "az_rg_name" {
   description = "Name of your resource group"
-  default = "pgr301-exam-hannarong98"
+  default = "pgr301-exam-rg"
 }
 
 variable "az_acr_img" {
   description = "Container registry image tag/name"
-  default = "c2ad41e6857109f7cdf995f9c279cfa386b820b9"
+  default = "903dd4821ba70c17380648a8d754c5bdd9fa6f6e"
 }
 
 variable "az_app_web_srv_label" {

@@ -42,7 +42,7 @@ script:
   export TF_VAR_az_client_secret=$AZ_CLIENT_SECRET
   export TF_VAR_az_tenant_id=$AZ_TENANT_ID
   terraform init
-  terraform import azurerm_resource_group.rg /subscriptions/"${AZ_SUB_ID}"/resourceGroups/pgr301-exam-hannarong98
+  terraform import azurerm_resource_group.rg /subscriptions/"${AZ_SUB_ID}"/resourceGroups/pgr301-exam-rg
   terraform plan
   terraform apply --auto-approve
   terraform output
