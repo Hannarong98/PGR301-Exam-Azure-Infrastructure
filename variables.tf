@@ -11,7 +11,7 @@ variable "az_rg_name" {
 
 variable "az_acr_img" {
   description = "Container registry image tag/name"
-  default = "903dd4821ba70c17380648a8d754c5bdd9fa6f6e"
+  default = "7b582d7462018020f4ca46a38ed46bd53f30c267"
 }
 
 variable "az_app_web_srv_label" {
