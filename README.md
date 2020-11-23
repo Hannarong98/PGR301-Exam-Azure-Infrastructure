@@ -8,7 +8,7 @@ Prerequisite
 #### You have to have the following requirements to begin
 * Service principal account with enough permission
 
-#### Optionally create resource group beforehand
+#### Optionally created resource group beforehand
 
 Usage
 ---
