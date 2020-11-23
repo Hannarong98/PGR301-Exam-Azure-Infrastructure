@@ -1,6 +1,6 @@
 ## PGR301-Exam-Infrastructure
 
-[![Build Status](https://travis-ci.com/Hannarong98/PGR301-Exam-Infrastructure.svg?token=DqMpxq41VWvgzW8Fy3oq&branch=master)](https://travis-ci.com/Hannarong98/PGR301-Exam-Infrastructure) <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=5749379&Days=1&Design=3" /></a>
+[![Build Status](https://travis-ci.com/Hannarong98/pgr301-exam-azure-infrastructure.svg?token=DqMpxq41VWvgzW8Fy3oq&branch=master)](https://travis-ci.com/Hannarong98/pgr301-exam-azure-infrastructure) <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=5750663&Days=1&Design=3" /></a>
 
 
 Prerequisite
@@ -61,4 +61,4 @@ Links
 
 [Deployed here](https://pgr301exam.azurewebsites.net/)
 
-[Application(feature/azure-deployment)](https://github.com/Hannarong98/PGR301-Exam-application)
+[Application(feature/azure-deployment)](https://github.com/Hannarong98/PGR301-Exam-application/tree/feature/azure-deployment)
