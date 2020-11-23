@@ -61,6 +61,4 @@ Deployment
 Links
 ---
 
-[Deployed here](https://pgr301exam.azurewebsites.net/)
-
 [Application(feature/azure-deployment)](https://github.com/Hannarong98/PGR301-Exam-application/tree/feature/azure-deployment)
