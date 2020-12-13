@@ -7,6 +7,8 @@ Prerequisite
 ---
 #### You have to have the following requirements to begin
 * Service principal account with enough permission
+* Storage Account with container
+   * This functions the same as gcp buckets
 
 #### Optionally created resource group beforehand
 
