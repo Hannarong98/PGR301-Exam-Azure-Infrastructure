@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.com/Hannarong98/pgr301-exam-azure-infrastructure.svg?token=DqMpxq41VWvgzW8Fy3oq&branch=master)](https://travis-ci.com/Hannarong98/pgr301-exam-azure-infrastructure)
 
+## Note
+
+As of December 2020 I have removed the deployed web app it will no long be available. I have also commented out travis script,
+remove those to make it working again
+
 Prerequisite
 ---
 #### You have to have the following requirements to begin
