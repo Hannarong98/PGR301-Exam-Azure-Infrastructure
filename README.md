@@ -4,7 +4,7 @@
 
 ## Note
 
-As of December 2020 I have removed the deployed web app it will no long be available. I have also commented out travis script,
+As of December 2020 I have removed the deployed web app, it will no longer be available. I have also commented out travis script,
 remove those to make it working again
 
 Prerequisite
