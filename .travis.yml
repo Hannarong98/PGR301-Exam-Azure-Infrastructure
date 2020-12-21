@@ -25,23 +25,23 @@ branches:
   only:
   - master
 install: true
-script:
-- |-
-  set -ex;
-  export TF_VAR_logz_token=$LOGZ_TOKEN
-  export TF_VAR_logz_url=$LOGZ_URL
-  export TF_VAR_status_cake_username=$STATUS_CAKE_USERNAME
-  export TF_VAR_status_cake_api_key=$STATUS_CAKE_API_KEY
-  export ARM_CLIENT_ID=$AZ_CLIENT_ID
-  export ARM_CLIENT_SECRET=$AZ_CLIENT_SECRET
-  export ARM_SUBSCRIPTION_ID=$AZ_SUB_ID
-  export ARM_TENANT_ID=$AZ_TENANT_ID
-  export TF_VAR_az_container_registry_url=$AZ_ACR_URL
-  export TF_VAR_az_subscription_id=$AZ_SUB_ID
-  export TF_VAR_az_client_id=$AZ_CLIENT_ID
-  export TF_VAR_az_client_secret=$AZ_CLIENT_SECRET
-  export TF_VAR_az_tenant_id=$AZ_TENANT_ID
-  terraform init
-  terraform plan
-  terraform apply --auto-approve
-  terraform output
+# script:
+# - |-
+#  set -ex;
+#  export TF_VAR_logz_token=$LOGZ_TOKEN
+#  export TF_VAR_logz_url=$LOGZ_URL
+#  export TF_VAR_status_cake_username=$STATUS_CAKE_USERNAME
+#  export TF_VAR_status_cake_api_key=$STATUS_CAKE_API_KEY
+#  export ARM_CLIENT_ID=$AZ_CLIENT_ID
+#  export ARM_CLIENT_SECRET=$AZ_CLIENT_SECRET
+#  export ARM_SUBSCRIPTION_ID=$AZ_SUB_ID
+#  export ARM_TENANT_ID=$AZ_TENANT_ID
+#  export TF_VAR_az_container_registry_url=$AZ_ACR_URL
+#  export TF_VAR_az_subscription_id=$AZ_SUB_ID
+#  export TF_VAR_az_client_id=$AZ_CLIENT_ID
+#  export TF_VAR_az_client_secret=$AZ_CLIENT_SECRET
+#  export TF_VAR_az_tenant_id=$AZ_TENANT_ID
+#  terraform init
+#  terraform plan
+#  terraform apply --auto-approve
+#  terraform output
